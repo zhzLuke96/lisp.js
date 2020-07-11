@@ -1,0 +1,15 @@
+{
+  "name": "lisp.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "onchange \"./*.js\" \"./*.lisp\" -- node ./lisp.js js.lisp --clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "onchange": "^7.0.2"
+  }
+}
